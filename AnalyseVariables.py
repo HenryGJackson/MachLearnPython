@@ -40,6 +40,7 @@ def calcentropy(data,variable,myrange,total):
 
     return entropy
 
+# "Conditional Entropy Formula" 
 def CondEntForm(probXY,probY):
     if isinstance(probXY, list):
         lengthi = len(probXY)
